@@ -1,0 +1,4 @@
+lista_int = [32, 57, 101, 77]
+lista_bin = [bin(numero)[2:] for numero in lista_int]
+
+print(lista_bin)
